@@ -4,36 +4,45 @@
 body{}
 
 header{
-	padding: 20px 0 40px 0;
+	width: 915px;
+	padding-top: 100px;
 	margin-bottom: 10px;
 	background-color: #ffe080;
+	background-image: url("../images/header.JPG");
 }
 	
 .sidebar{
 	float:left;
-	width:15em;
-	padding: 20px 0 40px 0;
+	width:240px;
+	padding: 0px 0 40px 0;
 	margin-right: 10px;
 	border: solid;
 }
 
 main{
 	float:left;
-	width: 580px;
+	width: 655px;
 	padding: 20px 0 450px 0;
 	border: solid;
 }
 
 footer{
 	clear: left;
-	width: 100%;
+	width: 915px;
 	padding: 20px 0 40px 0;
+}
+
+#footer{
 	background-color: #E6E6E6;
+}
+
+p.main{
+	margin: 10px 0px 0px 10px;
 }
 
 /* --- ボックス --- */
 div.section {
-width: 298px; /* ボックスの幅 */
+width: 600px; /* ボックスの幅 */
 margin-left: 10px;
 background-color: #ffffff; /* ボックスの背景色 */
 border: 1px #c0c0c0 solid; /* ボックスの境界線 */
@@ -55,6 +64,14 @@ height: 120px; /* 本文領域の高さ */
 overflow: auto;
 }
 
+div.textArea ul{
+	padding-left: 25px;
+}
+
+div.textArea ul li{
+	padding-bottom: 5px;
+}
+
 /* --- 本文領域内の段落 --- */
 div.section div.textArea p {
 margin: 1em 10px; /* 段落のマージン（上下、左右） */
@@ -62,6 +79,6 @@ margin: 1em 10px; /* 段落のマージン（上下、左右） */
 
 h1{
 	margin: 0px;
-	padding: 0px;
-	background-color: #E6E6E6;
+	padding-left: 10px;
+	background-color: rgba(0,255,255,0.5);
 }
