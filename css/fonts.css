@@ -1,0 +1,12 @@
+/* fontdate */
+
+a:link { color: #0000ff; }
+a:visited { color: #800080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff0000; }
+
+p{color:#111111;}
+
+.center{
+	text-align: center;
+	}
